@@ -2,14 +2,14 @@ import React from 'react';
 import { IndexRoute, Route } from 'react-router';
 
 import App from './components/App';
-import Home from './components/Home';
-import Section from './components/Section';
+import List from './components/List';
+import Item from './components/Item';
 
 const routes = () => {
 	return (
 		<Route path="/" component={App}>
-			<IndexRoute component={Home} />
-			<Route path='section' component={Section} />			
+			<IndexRoute component={List} />
+			<Route path="/item" component={Item} />	
 		</Route>
 	);
 }
