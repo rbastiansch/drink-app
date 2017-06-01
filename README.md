@@ -1,6 +1,6 @@
 # drink-app
 
-A Simple boilerplate to app, it's using react-router, react-hot-loader and webpack.
+A simple App to consume an API called Punk API.
 
 ## To Build setup
 ``` bash
